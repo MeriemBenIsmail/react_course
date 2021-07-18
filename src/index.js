@@ -1,15 +1,17 @@
+// starting point 
+// first code executed 
+
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-// REACTDOM.render(WHAT DO I WANT TO RENDER?)
+
+// REACTDOM.render(WHAT DO I WANT TO RENDER, where do i want to render it)
+// html in js  : JSX 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <App />,document.getElementById('root')
 );
 
-reportWebVitals();
+
